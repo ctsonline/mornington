@@ -109,6 +109,11 @@ view: pumps {
     sql: ${a2} ;;
   }
 
+  measure: max_value_a2 {
+    type:  max
+    sql:  ${a2} ;;
+  }
+
   measure: average_value_a3 {
     type: average
     sql: ${a3} ;;
